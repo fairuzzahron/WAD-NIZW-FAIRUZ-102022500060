@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+
+.halaman {
+    width: fit-content;
+    max-width: 100%;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: auto 100px;
+    padding: 24px 28px 42px;
+}
+
+.judul {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.content-wrapper {
+    width: fit-content;
+    max-width: 100%;
+    margin: 30px auto;
+}
+
+.Dipakai {
+    background-color: #ffe3e3;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.Tersedia {
+    background-color: #dff3e8;
+    color: green;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    /* padding: 10px; */
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.tabel {
+    overflow-x: auto
+}
+
+th,
+td {
+    padding: 15px;
+    vertical-align: middle;
+    border: none;
+}
+
+.warna-kolom {
+    background-color: rgb(241, 217, 182);
+}
+
+.warna-kolom td {
+    background-color: transparent;
+}
+
+.kotak {
+    background-color: rgb(255, 254, 254);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.isi {
+    border: 1px solid #dce3ed;
+    background: #fff;
+    border-radius: 9px;
+    padding: 5px 12px;
+    outline: none;
+    min-width: 100%;
+}
+
+.kotak ul li {
+    margin: 20px;
+    list-style: none;
+}
+
+.kotak ul {
+    padding: 0;
+}
+
+.jam-container {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.jam-container select {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    padding: 8px 12px;
+    color: #333;
+    border: 1px solid #dce3ed;
+    border-radius: 9px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.jam-container select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.1);
+}
+
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(241, 217, 182);
+}
+
+table tbody tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+}
